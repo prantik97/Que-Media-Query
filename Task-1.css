@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.res_head {
+    height: 85px;
+    margin: 5px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_c {
+    margin: 5px;
+}
+.foot_c {
+    margin: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .res_head {
+    background-color: blue;
+    }
+}
